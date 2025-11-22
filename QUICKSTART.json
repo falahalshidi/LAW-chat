@@ -1,0 +1,31 @@
+{
+    "recommendations": [
+        {
+            "title": "تثبيت المكتبات",
+            "command": "npm install",
+            "description": "تثبيت جميع المكتبات المطلوبة للمشروع"
+        },
+        {
+            "title": "تشغيل المشروع",
+            "command": "npm run dev",
+            "description": "تشغيل خادم التطوير على المنفذ 5173"
+        },
+        {
+            "title": "بناء المشروع",
+            "command": "npm run build",
+            "description": "بناء المشروع للإنتاج"
+        }
+    ],
+    "apiSetup": {
+        "step1": "افتح التطبيق في المتصفح",
+        "step2": "أدخل مفتاح DeepSeek API في الحقل المخصص",
+        "step3": "اضغط زر 'حفظ'",
+        "note": "إذا كنت تحتاج لتغيير endpoint، راجع ملف API_CONFIG.md"
+    },
+    "usage": {
+        "uploadPDF": "اضغط زر 'رفع ملفات PDF' في أعلى اليمين",
+        "waitProcessing": "انتظر حتى تكتمل معالجة الملفات",
+        "askQuestion": "اكتب سؤالك واضغط Enter",
+        "getAnswer": "سيبحث النظام في الملفات ويعطيك إجابة دقيقة"
+    }
+}
